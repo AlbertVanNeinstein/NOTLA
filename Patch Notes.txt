@@ -12,12 +12,12 @@ Added some lines of story and changed the stats of the weapons for testing purpo
 
 Alpha 0.2
 __________________________________________________________________________________________________________________________________________
-20/06/2014: Re-Worked the story as it is WAYYYY too hard
-NOT A PATCH (But still a note): The lvl 1 monsters need to be nerfed to oblivion, and we need to add an item that
+20/06/2014: Re-Worked the story as it was WAYYYY too hard
+Note: The lvl 1 monsters need to be nerfed to oblivion, and we need to add an item that
 increases the max health (and we need to add a max health stat and variable)
 21/06/2014: Fixed up Alpha story (and changed the swords to guns and chestplate to a ballistic vest (temporarily))
 23/06/2014: Added olayer class, commented it out. (Unfinished, don't delete) Re-worked health system, and made encounters harder.
-3/07/2014: Added a bunch of new enemies, added more story. NOTE: Use MainGame as the main file and MainGame (1) as a backup
+3/07/2014: Added a bunch of new enemies, added more story.
 13/07/2014: Added xp overflow, added 'Debug' or 'debug' name shortcut, skips directly to the game without asking for you to confirm your name. Plus, it calls you user of awesomeness.
 Added working death, Explained why swords are used as main.
 03/12/2014: Layed down base for the movement engine (uses the new globals)
