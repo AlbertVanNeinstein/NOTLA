@@ -2,6 +2,7 @@
 Change ALL inputs to use if (x).lower in (y) instead of keywords (allows for faster response times)
 [NON-PRIORITISED]
 Working Horde-Encouners
+add  .lower() to all inputs, removing the need for more code and allows it to run faster
 Add HackSim Puzzle
 Add Encrypt Puzzle
 Add Chars. 1-9
