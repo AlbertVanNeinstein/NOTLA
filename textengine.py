@@ -1,6 +1,4 @@
 '''create items up here, name first, then itemtype, then stats, then description, then relevant stat'''
-
-#test tes tes tes tes tes tes 44456
 #Also, this is the game engine, not the game. once I get it working, I will make a game. Everything here is just test placeholder rooms/items
 it1=['test','plot', None, 'it\'s a shiny thing',None]
 testsword=['sword','sword',6969,'IMA CUT YOU!','attack']
@@ -43,12 +41,14 @@ class room:
         if eventtype=='talk':
             self.talkexec=0
             self.event='talk'
-
+        if eventtype=='shop':
+            self.event='shop'
 
 
 class player():
     #Everything here works. Forgot what I did so ittl be a lot of work to fix, DO NOT TOUCH!
     def __init__(self,curroom):
+        self.gold=0
         self.curroom=curroom
         self.inventory=[]
         self.equipped=[None,None,None] #Armor, sword, boots
@@ -58,9 +58,12 @@ class player():
         self.equipped[1]=item
     def equipboots(self,item):
         self.equipped[2]=item
+    def gaingold(self,amount):
+        self.gold+=amount
     def displayinventory(self):
         for thing in range(len(self.inventory)):
             print str(thing+1)+')'+" "+str(self.inventory[thing][0])+' : '+str(self.inventory[thing][3])
+        print 'Gold'+' '+":"+' '+str(self.gold)
         while True:
             exitoritem=raw_input('Type an item number to select it, type equipment to view stats and equipped items, or type exit to close your inventory >>')
             if exitoritem.lower()=='exit':
@@ -196,6 +199,7 @@ player.addtoinventory(it2)
 player.addtoinventory(testsword)
 player.addtoinventory(testarmor)
 player.addtoinventory(testboots)
+player.gaingold(6969)
 
 #equipping test items (Don't delete, or the equipment function will give an error'
 player.equipsword(testsword)
