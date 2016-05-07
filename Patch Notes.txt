@@ -22,3 +22,7 @@ Added working death, Explained why swords are used as main.
 
 Alpha 0.3
 06/05/2016: Moved project from Google Drive to GitHub (using Drive was the single worst decision of my life)
+
+
+Umm... alpha 01 again I guess?
+06/06/2016: Added textengine.py. It is an engine, not a game, so every game-related thing is a test placeholder. I also forgot how I did a lot of stuff, so don't touch anything in the inventory founction. I've labeled it, so it should be okay. 
