@@ -14,6 +14,7 @@ class room:
         self.east=None
         self.west=None
         self.talkexec=None
+        self.stock=None
     def setwest(self,num):
         self.west=num
     def seteast(self,num):
@@ -37,6 +38,12 @@ class room:
         if direction=='west':
             self.setwest(room)
             room.setwest(self)
+    def setshopstock(self, stock):
+        self.stock=stock
+    def shop(self):
+        print "Welcome, traveller. Wold you care to see my wares?"
+        for item in range(len(self.stock)):
+            print (str(item+1))+')'+" "+str((self.stock[item])[0])+' : '+str((self.stock[item])[3])
     def setevent(self,eventtype):
         if eventtype=='talk':
             self.talkexec=0
@@ -162,6 +169,8 @@ class player():
         elif self.curroom.event=='talk' and self.curroom.talkexec==1:
             print 'dafuq?'
             self.travel()
+        elif self.curroom.event=='shop':
+            self.curroom.shop()
         elif self.curroom.event==None:
             self.travel()
 
@@ -207,6 +216,8 @@ player.equiparmor(testarmor)
 player.equipboots(testboots)
 
 #Testing stuff, not a category
+room2.setevent('shop')
+room2.setshopstock([it1,testarmor,testboots])
 player.enterroom()
 print 'k?'
 player.enterroom()
