@@ -1,18 +1,22 @@
 [PRIORITISED]
+  [ENGINE]
+    Add support for Monsters
+    Add a Save function
+
+  [AFTER THE ENGINE IS DONE]
+    Add Chars. 1-9
+    Add Storys 1-9
+    Finish Story 10
+    Add Boss-Fights
   [EVENTS]
     [COMBAT]
       Working Horde-Encouners
     [CONVERSATION]
     [PUZZLE]
-      hacksim/encrypt
+      Hacksim/Encrypt
       
 [NON-PRIORITISED]
 
-[AFTER THE ENGINE IS DONE]
-Add Chars. 1-9
-Add Storys 1-9
-Finish Story 10
-Add Bosses/Boss-Fights
 
 [COMPLETED]
 Change ALL inputs to use if (x).lower in (y) instead of keywords (allows for faster response times) -- Done by default in the new engine

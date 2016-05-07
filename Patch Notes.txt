@@ -2,11 +2,11 @@ Alpha 0.1
 
 09/06/2014: Added a MainGame class. Need to import the other Classes. Dev notes added
 10/06/2014: Changed Dev Notes to Patch Notes.
-Fixing the start to work iwth the item format casuing Bug-1 on MainGame ([B-1 MainGame])
-Addded bug formats for the Patch Notes
+Fixing the start to work with the item format causing Bug-1 on MainGame ([B-1 MainGame])
+Added bug formats for the Patch Notes
 11/06/2014: Edited MainGame, fixed some bugs, added run()
-Fixed up the story and changed Patch Notes from .gdoc to .txt (don't change it to .gdoc!)
-Added some lines of story and changed the stats of the weapons for testing purposes.
+    Fixed up the story and changed Patch Notes from .gdoc to .txt (don't change it to .gdoc!)
+    Added some lines of story and changed the stats of the weapons for testing purposes.
 12/06/2014: Added xp system. Stats increase on level up. Added magic, and re-worked the attack system. Minor bug fixes.
 13/06/2014: Added more story, bug fixes
 
@@ -21,8 +21,14 @@ Added working death, Explained why swords are used as main.
 03/12/2014: Layed down base for the movement engine (uses the new globals)
 
 Alpha 0.3
-06/05/2016: Moved project from Google Drive to GitHub (using Drive was the single worst decision of my life)
+06/06/2016: Moved project from Google Drive to GitHub (using Drive was the single worst decision of my life)
+    Added hidden debug kill (d) in the combat dialogue that kills any monster instantly
+    Fixed code using start() function because it doesn't exist.
 
-
-Umm... alpha 01 again I guess?
-06/06/2016: Added textengine.py. It is an engine, not a game, so every game-related thing is a test placeholder. I also forgot how I did a lot of stuff, so don't touch anything in the inventory founction. I've labeled it, so it should be okay. 
+Alpha 0.4
+06/06/2016: Added textengine.py as the new engine for the game. All game-content in it is placeholder.
+                NOTE: Do Not touch the Inventory Function
+            Fixed Ben's patch-notes because he sucks at writing patch-notes
+            Fixed a bunch of typos in old notes
+            Changed T0D0 to Upcoming Features because it kept messing up my text (hence spelling it in 0's)
+            Updated Upcoming Features list to include [After Engine is Done] in [Prioritized] as well as adding Engine to [Prioritized]

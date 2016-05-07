@@ -5,7 +5,6 @@ def cont():
 #if if 'x'==in (
 #This is the main game class, I will be writing the story here. Please import everything here
 #Combat is here, modified so we can get new gear
-""" Thanks, Ben!"""
 class player(object):
         global lvl
         global heart
@@ -122,9 +121,10 @@ def combat(monster,xpgain):
                             print 'You are out of Spell points!'
                 
                 elif (fight_magic=='magic' or fight_magic=='Magic') and spelluses<=0:
-                    print 'You are out of Spell points!'                                                                          
+                    print 'You are out of Spell points!'
+                #elif (fight_)
         elif 'd'.upper() in action:
-                        playerhealth=0
+                        currmonhealth = 0
                         print 'It works'
         else:
             print 'You can\'t do that!'
@@ -145,20 +145,11 @@ def combat(monster,xpgain):
         print 'play again?'
         again=raw_input('y/n>')
         if again=='y' or again=='Y':
-            start()
+            name()
         if again=='n' or again=='N':
             sys.exit()
         return
-            
 
-""" Fixed up some errors in the code, and added the or statement again, but it works. If there are errors, play with indentation"""
-
-
-
-
-Cheats = 1
-            
-    
 global playerhealth 
 import time
 global sword
@@ -166,7 +157,6 @@ global boots
 global heart
 global armor
 global lvl
-global Cheats
 global MoveL
 global MoveR
 global MoveF
@@ -190,28 +180,26 @@ def name():
     if Name=='Dev' or Name=='dev':
         print 'Welcome, User of Awesomeness'
         Name='Dev'
+        start()
     else:
         print 'So, your name is %r?' % Name
         n = raw_input('Are you sure? >>')
         if n =='No' or n=='no':
             print 'Okay'
-            name()
+            start()
         else:
             print"That's not an option"
             name()
-
+def start():
     player.sethp()
     playerhealth=heart+lvl
     while True:
         if player.getcurrhp()>0:
-            """This is just a test story, so don't worry about it being really, really bad!"""
-            """No problem"""
             print "You wake up in a government lab."
             print "You are strapped to a chair and can't move your body, you can only look left or right"
             z=raw_input('>>')
             if (z == 'Look Left'or z == 'look left' or z=='Left' or z== 'left'):
                 print 'There seems to be a Lead sliding door. it may be a way out once you get out of the chair.'
-                start()
             elif z == 'Look Right' or z== 'Look right' or z=='look right' or z== 'right' or z== 'Right':
                 print 'You see a human-like figure being shot in the chest over and over'
                 cont()
