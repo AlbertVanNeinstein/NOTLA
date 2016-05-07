@@ -5,7 +5,6 @@ testsword=['sword','sword',6969,'IMA CUT YOU!','attack']
 testarmor=['armor','armor',4555,'woooot','defense']
 testboots=['boots','boots',653345,'MAH NAME IS BURRY ARREN','speed']
 it2=['test2','plot',None, 'Wow! A game object that won\'t be in the game proper! Spoooky',None]
-dick=['large penis','plot',None, "It's a large penis", None]
 class room:
     def __init__(self):
         self.description=''
