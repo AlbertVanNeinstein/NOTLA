@@ -1,6 +1,6 @@
 '''create items up here, name first, then itemtype, then stats, then description, then relevant stat'''
 
-#test tes
+#test tes tes tes
 #Also, this is the game engine, not the game. once I get it working, I will make a game. Everything here is just test placeholder rooms/items
 it1=['test','plot', None, 'it\'s a shiny thing',None]
 testsword=['sword','sword',6969,'IMA CUT YOU!','attack']
