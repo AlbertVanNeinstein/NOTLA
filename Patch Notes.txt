@@ -1,0 +1,28 @@
+Alpha 0.1
+
+09/06/2014: Added a MainGame class. Need to import the other Classes. Dev notes added
+10/06/2014: Changed Dev Notes to Patch Notes.
+Fixing the start to work iwth the item format casuing Bug-1 on MainGame ([B-1 MainGame])
+Addded bug formats for the Patch Notes
+11/06/2014: Edited MainGame, fixed some bugs, added run()
+Fixed up the story and changed Patch Notes from .gdoc to .txt (don't change it to .gdoc!)
+Added some lines of story and changed the stats of the weapons for testing purposes.
+12/06/2014: Added xp system. Stats increase on level up. Added magic, and re-worked the attack system. Minor bug fixes.
+13/06/2014: Added more story, bug fixes
+
+Alpha 0.2
+__________________________________________________________________________________________________________________________________________
+20/06/2014: Re-Worked the story as it was WAYYYY too hard
+21/06/2014: Fixed up Alpha story (and changed the swords to guns and chestplate to a ballistic vest (temporarily))
+23/06/2014: Added olayer class, commented it out. (Unfinished, don't delete) Re-worked health system, and made encounters harder.
+3/07/2014: Added a bunch of new enemies, added more story. NOTE: Use MainGame as the main file and MainGame (1) as a backup
+13/07/2014: Added xp overflow, added 'Debug' or 'debug' name shortcut, skips directly to the game without asking for you to confirm your name. Plus, it calls you user of awesomeness.
+Added working death, Explained why swords are used as main.
+03/12/2014: Layed down base for the movement engine (uses the new globals)
+
+Alpha 0.3
+06/05/2016: Moved project from Google Drive to GitHub (using Drive was the single worst decision of my life)
+
+
+Umm... alpha 01 again I guess?
+06/06/2016: Added textengine.py. It is an engine, not a game, so every game-related thing is a test placeholder. I also forgot how I did a lot of stuff, so don't touch anything in the inventory founction. I've labeled it, so it should be okay. 
